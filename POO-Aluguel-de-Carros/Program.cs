@@ -40,7 +40,7 @@ namespace POO_Aluguel_de_Carros
             servicoLocacao.ProcessoFatura(aluguelCarro);
             //Começo da exibição da fatura.
             Console.WriteLine("FATURA: ");
-            //Exicição da fatura, com pagamento inicial, taxa aplicada, e pagamento final.
+            //Exibição da fatura, com pagamento inicial, taxa aplicada, e pagamento final.
             Console.WriteLine(aluguelCarro.Fatura);
         }
     }
